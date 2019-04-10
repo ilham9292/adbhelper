@@ -1,0 +1,435 @@
+ip<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+<head>
+<meta charset="utf-8">
+<title>IP Geolocation API & Free Address Database | DB-IP</title>
+<meta name="description" content="From basic IP address to location to detailed cyber threat analysis, the DB-IP Geolocation API and database offer superior accuracy and performance. Learn more about our API and database here when you visit our website and get what you need with our free downloads today." />
+<meta name="viewport" content="width=device-width, user-scalable=no">
+<link rel="canonical" href="https://db-ip.com/" />
+<link rel="stylesheet" href="/css/bootstrap.min.css" />
+<link rel="stylesheet" href="/css/odometer-theme-default.css" />
+<link rel="stylesheet" href="/css/prism.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css" integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ==" crossorigin="" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.3.0/dist/MarkerCluster.css" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.3.0/dist/MarkerCluster.Default.css" />
+<link rel="stylesheet" href="/css/main.css">
+<link rel="search" href="https://db-ip.com/search.xml" type="application/opensearchdescription+xml" title="DB-IP" />
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/manifest.json">
+<link rel="mask-icon" href="/safari-pinned-tab.svg" color="#007bff">
+<meta name="theme-color" content="#007bff">
+<script type="cdee745108b2ca27a8aa1031-text/javascript">
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-32777297-1']);
+		  _gaq.push(['_setDomainName', 'db-ip.com']);
+		  _gaq.push(['_trackPageview']);
+		  (function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+		</script>
+</head>
+<body class='no-margin'>
+<div id="pagetop"></div>
+<!--[if lt IE 7]>
+            <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
+        <![endif]-->
+<nav class="navbar navbar-expand-lg bg-light fixed-top navbar-light">
+<div class="container">
+<a class="navbar-brand" href="/"><img src="/logo/ip-geolocation.png" alt="IP Geolocation API and database" /></a>
+<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#exCollapsingNavbar" aria-controls="exCollapsingNavbar" aria-expanded="false" aria-label="Toggle navigation">
+<i class="fa fa-lg fa-bars"></i>
+</button>
+<div class="collapse navbar-collapse" id="exCollapsingNavbar">
+<ul class="nav navbar-nav mr-auto mt-2 mt-lg-0">
+<li class='nav-item'><a class='nav-link' href='/api/'>API</a></li><li class='nav-item'><a class='nav-link' href='/api/doc.php'>Developers</a></li><li class='nav-item'><a class='nav-link' href='/api/pricing/'>Pricing</a></li><li class='nav-item'><a class='nav-link' href='/db/'>Database</a></li><li class='nav-item'><a class='nav-link' href='/tools/'>Tools</a></li><li class='nav-item'><a class='nav-link' href='/about/'>Statistics</a></li><li class='nav-item'><a class='nav-link' href='/faq.php'>FAQ</a></li> </ul>
+<form method="POST" class="form-inline my-2 my-lg-0" role="search">
+<div class="input-group">
+<input id="search_input" type="text" name="address" class="form-control" value="" required="required" placeholder="Lookup IP address" data-placement="bottom" title="Lookup IP address" data-content="Explore our API information by entering any IPv4 or IPv6 address in the search bar above." data-trigger="hover" />
+<span class="input-group-btn">
+<button type="submit" class="btn btn-outline-secondary">
+<i class="fa fa-search" aria-hidden="true"></i>
+<span class="sr-only">Search</span>
+</button>
+</span>
+</div>
+</form>
+<span class="navbar-text ml-3 d-none d-lg-inline-block"><a href="/account/" class="text-secondary h4" title="Customer sign-in"><i class="fa fa-user-circle"></i></a></span>
+</div>
+</div>
+</nav>
+<div class="jumbotron jumbotron-fluid home m-0 pb-0">
+<div class="container">
+<h1 class="display-3">IP geolocation API and database</h1>
+<p class="lead">Your ultimate resource for IP address geolocation and network intelligence</p>
+
+<br /><br />
+</div>
+</div>
+<div class="container-fluid bg-light py-3">
+<h5 class="text-center text-muted">Trusted by thousands of happy customers</h5>
+<div class="container customer-list py-4">
+<div class="row">
+<div class="col text-center">
+<img src="/img/cust_microsoft_200w.png" style="position:relative; top:8px" />
+</div>
+<div class="col text-center">
+<img src="/img/cust_samsung_200w.png" />
+</div>
+<div class="col text-center">
+<img src="/img/cust_amazon_200w.png" style="position:relative; top:8px" />
+</div>
+<div class="col text-center">
+<img src="/img/cust_newegg_200w.png" />
+</div>
+<div class="col d-none d-sm-block text-center">
+<img class="lazy" data-src="/img/cust_ea_200w.png" />
+</div>
+<div class="col d-none d-sm-block text-center">
+<img class="lazy" data-src="/img/cust_telstra_200w.png" />
+</div>
+<div class="col d-none d-md-block text-center">
+<img class="lazy" data-src="/img/cust_fujitsu_200w.png" />
+</div>
+</div>
+</div>
+</div>
+<br /><br />
+<div class='container'>
+<div class="row">
+<div class="col-lg-4">
+<div class="display-1 text-center text-primary"><i class="fa fa-map-marker display-6" aria-hidden="true"></i></div><br />
+<h2 class="text-center">Location-aware content</h2><br />
+<p class="lead text-justify">Know your visitors before they even sign in and customize their experience based on country, state, language, currency or connection speed. Using our IP geolocation tool, you can also implement geographic restrictions for your sensitive content or improve your ad targeting.</p>
+</div>
+<div class="col-lg-4">
+<div class="display-1 text-center text-success"><i class="fa fa-bar-chart display-6" aria-hidden="true"></i></div><br />
+<h2 class="text-center">Traffic survey</h2><br />
+<p class="lead text-justify">Get insights about your core market demographics through IP geolocation, and discover new hidden opportunities and emerging trends. Add location awareness to your network security stack.</p>
+</div>
+<div class="col-lg-4">
+<div class="display-1 text-center text-danger"><i class="fa fa-money display-6" aria-hidden="true"></i></div><br />
+<h2 class="text-center">Risk analysis</h2><br />
+<p class="lead text-justify">Defend your infrastructure against cyberattacks, identify risky situations and account for originating country, proxy or Tor usage in your scoring process. Compare visitor geolocation with known customer data to detect online fraud and identity theft.</p>
+</div>
+</div>
+</div>
+<br /><br />
+<div class="jumbotron-fluid py-5 jumbotron">
+<br />
+<div class="container">
+<h1 class="text-center"><span class="odometer-fast num-queries">Billions of</span> requests served</h1>
+<br /><br />
+<div class="row">
+<div class="col-lg-4">
+<div class="display-1 text-center text-warning"><i class="fa fa-globe display-6" aria-hidden="true"></i></div><br />
+<h2 class="text-center">Global network</h2><br />
+<p class="lead text-justify">Our server infrastructure is highly redundant and spans over multiple continents. We use anycast routing so your request always reaches the nearest server and is answered lightning fast.</p>
+</div>
+<div class="col-lg-4">
+<div class="display-1 text-center text-warning"><i class="fa fa-map-pin display-6" aria-hidden="true"></i></div><br />
+<h2 class="text-center">Accurate and up to date</h2><br />
+<p class="lead text-justify">We aggregate data from a great number of sources and through agreements with several large ISPs for accurate IP address geolocation. Our API services receive near real-time updates and will give you the most up to date information.</p>
+</div>
+<div class="col-lg-4">
+<div class="display-1 text-center text-warning"><i class="fa fa-cubes display-6" aria-hidden="true"></i></div><br />
+<h2 class="text-center">Ultra scalable</h2><br />
+<p class="lead text-justify">Do you need more than what our standard API plans have to offer ? We can build your own private API infrastructure to handle any kind of load or special needs, just contact us.</p>
+</div>
+</div>
+</div>
+<br /><br /><br />
+</div>
+<div class='container'>
+<h1 class="text-center d-none">Features highlights</h1>
+<br />
+<div class="row my-5 align-items-center">
+<div class="col-lg-7 px-5">
+<div class="display-1 text-center text-primary"><i class="fa fa-street-view" aria-hidden="true"></i></div><br />
+<h2 class="text-center display-4">IP address Geolocation</h2><br />
+<p class="lead text-justify">Our geolocation data set covers the whole IPv4 and IPv6 address spaces with more than 1.5 million unique locations in 200,000+ cities worldwide. It is interoperable with popular third party geographic services such as the Geonames open database.</p>
+</div>
+<div class="col-lg-5 py-5">
+<div id="index_map" style="height:25em"></div>
+</div>
+</div>
+</div>
+<div class='container'>
+<br />
+<div class="row my-5 align-items-center">
+<div class="col-lg-5">
+<img data-src="/img/home-localization.png" class="w-100 lazy" />
+</div>
+<div class="col-lg-7 px-5">
+<div class="display-1 text-center text-success"><i class="fa fa-language" aria-hidden="true"></i></div><br />
+<h2 class="text-center display-4">Localization</h2><br />
+<p class="lead text-justify">Show your non-english speaking visitors the place names they are used to. We support state, district and city name localization in more than fifty languages including Chinese, Russian, Farsi, Spanish, French and live amount conversions for more than 50 currencies.</p>
+<br /><br /><br />
+</div>
+</div>
+</div>
+<br /><br />
+<div class="container-fluid bg-danger text-light">
+<div class="container">
+<br /><br /><br /><br />
+<div class="row my-5 align-items-center">
+<div class="col-lg-8 px-5">
+<div class="display-1 text-center text-warning"><i class="fa fa-shield" aria-hidden="true"></i></div><br />
+<h2 class="text-center display-4">Threat level assessment</h2><br />
+<p class="lead text-justify">Protect your web application, customer data and network infrastructure from cyber attacks. Our threat level indicator is computed in real-time from several security flags such as anonymous proxy usage or known attack sources.</p>
+<br /><br />
+</div>
+<div class="col-lg-4">
+<pre><code class="language-php">{
+	isCrawler: false,
+    isProxy: true,
+	proxyType: "vpn",
+    threatLevel: "high",
+    threatDetails: [
+		"anonymous-proxy",
+        "attack-source",
+		"attack-target:web"
+        "bot-name:gherran",
+        "bot-type:spam"
+	]
+}</code></pre>
+</div>
+</div>
+<br /><br /><br />
+</div>
+</div>
+<div class="container">
+<br /><br /><br /><br />
+<div class="row my-5 align-items-center">
+<div class="col-lg-5">
+<img data-src="/img/home-dashboard.png" class="w-100 lazy" />
+</div>
+<div class="col-lg-7 px-5">
+<div class="display-1 text-center text-primary"><i class="fa fa-tachometer" aria-hidden="true"></i></div><br />
+<h2 class="text-center display-4">Dashboard and alerts</h2><br />
+<p class="lead text-justify">From your API dashboard you are able to manage your keys, watch your API usage in real-time and analyze its historical trends. You may also setup email alerts whenever you go near or over your daily quota.</p>
+<br /><br /><br />
+</div>
+</div>
+<br /><br />
+</div>
+<div class="container-fluid bg-dark text-light">
+<br /><br /><br />
+<div class="container">
+<div class="row my-4 align-items-center">
+<div class="col-lg-5 px-4 my-5">
+<h2 class="text-center display-4">Easy integration</h2><br />
+<p class="lead text-justify">It only takes a few minutes to add IP geolocation awareness to your application. Our API uses RESTful semantics supported by all major development platforms, and we offer free open-source API query libraries and CSV import tools.</p>
+<p class="text-center"><a href="/tutorials/" class="btn btn-lg btn-outline-success mt-5"><i class="fa fa-graduation-cap"></i>&nbsp;&nbsp;Tutorials</a> &nbsp; <a href="/api/doc.php" class="btn btn-lg btn-outline-warning mt-5"><i class="fa fa-code"></i>&nbsp;&nbsp;API Documentation</a></p>
+</div>
+<div class="col-lg-7 px-4">
+<pre><code class="language-php">try {
+	$info = DBIP\Address::lookup($_SERVER["REMOTE_ADDR"]);
+	if ($info->threatLevel === "high") {
+		header("Status: 403 Forbidden");
+		die();
+	}
+	setlocale(LC_ALL, $info->languages[0]);
+	echo sprintf(_("Hello visitor from %s !"), $info->city);
+} catch (DBIP\ServerError $e) {
+	// Invalid key or address
+	Log::Warning($e->getMessage());
+}</code></pre>
+</div>
+</div>
+<br /><br />
+</div>
+</div>
+<div class="container">
+<br /><br /><br />
+<div class="row my-2">
+<div class="col-lg-6 px-4">
+<div class="display-1 text-center text-primary"><i class="fa fa-ambulance" aria-hidden="true"></i></div><br />
+<h2 class="text-center display-4">Support</h2><br />
+<p class="lead text-justify">Our team is here to solve any issue you might have and will do everything to help you, with every subscription you get access to email support so you will never be left alone with unanswered technical questions.</p>
+<br /><br /><br />
+</div>
+<div class="col-lg-6 px-4">
+<div class="display-1 text-center text-danger"><i class="fa fa-database" aria-hidden="true"></i></div><br />
+<h2 class="text-center display-4">Downloads</h2><br />
+<p class="lead text-justify">There are some cases where you just need the raw data at hand. Need to look up information by ISP or organization ? Extreme low-latency requirements ? Our CSV IP address geolocation downloads are updated daily and include most of the data available via API calls.</p>
+<br /><br /><br />
+</div>
+</div>
+<br />
+</div>
+<div class="container-fluid bg-light">
+<div class="container py-5">
+<br />
+<h1 class="text-center display-4">Pricing and plans</h1>
+<br />
+<div class="row">
+<div class="col-lg-6">
+<div class="card m-5">
+<h3 class="card-header text-center bg-primary text-light font-weight-light">IP geolocation API</h3>
+<div class="card-body">
+<p class="lead text-center">Free up to <b>1,000</b> requests per day</p>
+<p class="lead text-center">Starting at <b>15.90 EUR</b> per month</p>
+<br /><br />
+<p class="text-center"><a href="/api/" class="btn btn-outline-primary btn-lg">Learn more</a></p>
+</div>
+</div>
+</div>
+<div class="col-lg-6">
+<div class="card m-5">
+<h3 class="card-header text-center bg-success text-light font-weight-light">IP database downloads</h3>
+<div class="card-body">
+<p class="lead text-center">Free IP-to-country and IP-to-city downloads</p>
+<p class="lead text-center">Starting at <b>49.90 EUR</b> with 12 months of updates</p>
+<br /><br />
+<p class="text-center"><a href="/db/" class="btn btn-outline-success btn-lg">Learn more</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<script type="cdee745108b2ca27a8aa1031-text/javascript">
+function dbipOnLoad() {
+	window.mapLoaded = false;
+	dbip.getVisitorInfo().then(function(addrInfo) {
+		$("#search_input").val(addrInfo.ipAddress);
+		window.visitorCoords = [addrInfo.latitude, addrInfo.longitude];
+		var loadMap = function(els) {
+			if (!window.mapLoaded && (els[0].intersectionRatio > 0)) {
+				let map = L.map("index_map");
+				L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+					attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+				}).addTo(map);
+				L.marker(window.visitorCoords).addTo(map);
+				map.setView(window.visitorCoords, 13);
+				window.mapLoaded = true;
+			}
+		};
+		if ("IntersectionObserver" in window) {
+			var mapObserver = new IntersectionObserver(loadMap, {
+				root: null,
+				rootMargin: "50px",
+				threshold: 0
+			});
+			mapObserver.observe(document.getElementById("index_map"));
+		} else {
+			loadMap();
+		}
+	});
+	var updateCounter = function() {
+		$.get("/tot_queries.php").then(function(res) {
+			$(".num-queries").text(res.formatted);
+		});
+	};
+	updateCounter();
+	setInterval(updateCounter, 3000);
+}
+</script>
+<div class="footer bg-black"><div class="container-fluid bg-dark text-light">
+<footer class="pt-4 container">
+<div class="row">
+<div class="col text-center">
+<img class="lazy" data-src="/img/dbip-logo.png" style="height:8em; opacity:0.5" alt="IP Geolocation API and Databases" />
+</div>
+<div class="col">
+<h6>Company</h6>
+<a class="text-muted" href="/tos.php">Terms of service</a><br />
+<a class="text-muted" href="/privacy.php">Privacy policy</a><br />
+<a class="text-muted" href="/contact/">Contact</a><br />
+<a class="text-muted" href="/affiliate/">Affiliate program</a><br />
+<a class="text-muted" href="/account/">Customer sign-in</a><br />
+</div>
+<div class="col">
+<h6>Products</h6>
+<a class="text-muted" href="/api/">IP Geolocation API</a><br />
+<a class="text-muted" href="/db/">IP Geolocation Database</a><br />
+<a class="text-muted" href="/tools/">Geolocation tools</a><br />
+<a class="text-muted" href="/about/">Statistics</a><br />
+<a class="text-muted" href="/api/doc.php">Documentation</a><br />
+</div>
+<div class="col">
+<h6>Resources</h6>
+<a class="text-muted" href="/faq.php">Frequently asked questions</a><br />
+<a class="text-muted" href="/tutorials/">Tutorials</a><br />
+<a class="text-muted" href="/all/">Browse IPs</a><br />
+<a class="text-muted" href="/asn/">ASN List</a><br />
+<a class="text-muted" href="https://status.db-ip.com/">Service status</a><br />
+</div>
+</div>
+<br />
+</footer>
+</div> 
+<div class="container-fluid text-light"><div class="container">
+<p class="small text-muted text-center copy-note p-1">Copyright &copy; 2019 db-ip.com, all rights reserved.</p>
+</div></div>
+</div>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" type="cdee745108b2ca27a8aa1031-text/javascript"></script>
+<script type="cdee745108b2ca27a8aa1031-text/javascript">window.jQuery || document.write('<script src="/js/vendor/jquery-1.11.3.min.js"><\/script>')</script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/tether/1.3.1/js/tether.min.js" type="cdee745108b2ca27a8aa1031-text/javascript"></script>
+<script src="/js/vendor/bootstrap.bundle.min.js" type="cdee745108b2ca27a8aa1031-text/javascript"></script>
+
+<script src="/js/vendor/odometer.min.js" type="cdee745108b2ca27a8aa1031-text/javascript"></script>
+<script async src="/js/vendor/prism.js" type="cdee745108b2ca27a8aa1031-text/javascript"></script>
+<script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js" integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q==" crossorigin="" type="cdee745108b2ca27a8aa1031-text/javascript"></script>
+<script src="https://unpkg.com/leaflet.markercluster@1.3.0/dist/leaflet.markercluster.js" type="cdee745108b2ca27a8aa1031-text/javascript"></script>
+<script src="https://cdn.db-ip.com/js/dbip.js" data-api-key="p11e4d59ee6ad1a0b5cc80695a873e43a8fbca06" type="cdee745108b2ca27a8aa1031-text/javascript"></script>
+<script type="cdee745108b2ca27a8aa1031-text/javascript">
+		$(function() {
+			// search bar popover
+			$("#search_input").popover();
+			// call page specific onLoad
+			if (typeof dbipOnLoad === "function") {
+				dbipOnLoad.call();
+			}
+			$(".free_download_link").click(function(ev) {
+				if (!$("#license_agree").prop("checked")) {
+					alert("You must first read and agree to the licensing terms.");
+					ev.preventDefault();
+					return false;
+				}
+			});
+			var loadImage = function(els) {
+				$.each(els, function(k, el) {
+					let $img = $(el.target);
+					if ($img.hasClass("lazy") && (el.intersectionRatio > 0)) {
+						$img.attr("src", $img.attr("data-src"));
+						$img.removeClass("lazy");
+					}
+				});
+			};
+			if ("IntersectionObserver" in window) {
+				var imgObserver = new IntersectionObserver(loadImage, {
+					root: null,
+					rootMargin: "50px",
+					threshold: 0
+				});
+				$("img.lazy").each(function(k, img) {
+					imgObserver.observe(img);
+				});
+			} else {
+				$("img.lazy").each(function(k, img) {
+					$(img).attr("src", $(this).attr("data-src"));
+					$(this).removeAttr("lazy");
+				});
+			}
+			if ((typeof window.orientation === "undefined") && (navigator.userAgent.indexOf('IEMobile') === -1)) {
+				$(".odometer-fast").each(function(k, el) {
+					var o = new Odometer({ el: el });
+				});
+			}
+		});
+		</script>
+
+<script type="cdee745108b2ca27a8aa1031-text/javascript">!function(e,n,o,t){var r=n.createElement(o);r.src=t+"?time="+(new Date).getTime(),r.async=!0,r.onload=function(){ClickxTracker.init({twId:"kgfi98umqAM", apiUrl:"https://app.clickx.io"})},r.onerror=function(){console.log("Error")},n.getElementsByTagName("head")[0].appendChild(r)}(window,document,"script","https://app.clickx.io/clickx-tracker.js");</script><noscript><p><img src="https://app.clickx.io/tracker.gif?twId=kgfi98umqAM&noscript=true" style="border:0;" alt="" /></p></noscript>
+
+<script src="https://ajax.cloudflare.com/cdn-cgi/scripts/a2bd7673/cloudflare-static/rocket-loader.min.js" data-cf-settings="cdee745108b2ca27a8aa1031-|49" defer=""></script></body>
+</html>
